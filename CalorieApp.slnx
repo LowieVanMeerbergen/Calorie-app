@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CalorieApp-Business/CalorieApp-Business.csproj" />
+  <Project Path="CalorieApp-UI/CalorieApp-UI.csproj" />
+</Solution>
