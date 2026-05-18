@@ -24,7 +24,7 @@ namespace CalorieApp_Business
         }
         public int Calories 
         {
-            get { return _calories}
+            get { return _calories; }
         }
 
 

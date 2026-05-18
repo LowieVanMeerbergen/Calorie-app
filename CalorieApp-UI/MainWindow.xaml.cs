@@ -20,5 +20,10 @@ namespace CalorieApp_UI
         {
             InitializeComponent();
         }
+
+        private void CmbProductChoice_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

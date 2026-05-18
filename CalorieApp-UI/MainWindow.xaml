@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ComboBox Name="CmbProductChoice" HorizontalAlignment="Left" Margin="136,96,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="CmbProductChoice" HorizontalAlignment="Left" Margin="136,96,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CmbProductChoice_SelectionChanged"/>
         <TextBox x:Name="TxtWeight" HorizontalAlignment="Left" Margin="136,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label Content="Kies je product:" HorizontalAlignment="Left" Margin="133,65,0,0" VerticalAlignment="Top"/>
         <Label Content="Geef het gegeten gewicht in g:" HorizontalAlignment="Left" Margin="133,123,0,0" VerticalAlignment="Top"/>
         <Label Content="Je at" HorizontalAlignment="Left" Margin="136,0,0,0" VerticalAlignment="Center"/>
         <Label Content="xx" HorizontalAlignment="Left" Margin="168,0,0,0" VerticalAlignment="Center"/>
         <Label Content="kCal." HorizontalAlignment="Left" Margin="187,0,0,0" VerticalAlignment="Center"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="136,266,525,52"/>
+        <ListBox x:Name="LstProducts" Margin="136,266,525,52"/>
         <Label Content="Dit at je allemaal:" HorizontalAlignment="Left" Margin="136,230,0,0" VerticalAlignment="Top"/>
         <Button Content="Add to list" HorizontalAlignment="Left" Margin="136,179,0,0" VerticalAlignment="Top" Width="120"/>
 
