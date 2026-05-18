@@ -7,16 +7,40 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ComboBox Name="CmbProductChoice" HorizontalAlignment="Left" Margin="136,96,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CmbProductChoice_SelectionChanged"/>
+        <ComboBox Name="CmbProductChoice" HorizontalAlignment="Left" Margin="136,96,0,0" VerticalAlignment="Top" Width="120" >
+            <ComboBoxItem Content="Pizza salami"></ComboBoxItem>
+            <ComboBoxItem Content="Cheeseburger"></ComboBoxItem>
+            <ComboBoxItem Content="Frieten"></ComboBoxItem>
+            <ComboBoxItem Content="Frikandel"></ComboBoxItem>
+            <ComboBoxItem Content="Kroket"></ComboBoxItem>
+            <ComboBoxItem Content="Chicken nuggets"></ComboBoxItem>
+            <ComboBoxItem Content="Doner kebab"></ComboBoxItem>
+            <ComboBoxItem Content="Chips naturel"></ComboBoxItem>
+            <ComboBoxItem Content="Doritos Nacho Cheese"></ComboBoxItem>
+            <ComboBoxItem Content="Cheetos Nibb-it"></ComboBoxItem>
+            <ComboBoxItem Content="Popcorn zoet"></ComboBoxItem>
+            <ComboBoxItem Content="M and M's"></ComboBoxItem>
+            <ComboBoxItem Content="Snickers"></ComboBoxItem>
+            <ComboBoxItem Content="Nutella"></ComboBoxItem>
+            <ComboBoxItem Content="Pindakaas"></ComboBoxItem>
+            <ComboBoxItem Content="Cola"></ComboBoxItem>
+            <ComboBoxItem Content="Energy drink"></ComboBoxItem>
+            <ComboBoxItem Content="Chocolade melk"></ComboBoxItem>
+            <ComboBoxItem Content="Instant noodles"></ComboBoxItem>
+            <ComboBoxItem Content="Kaaspizza"></ComboBoxItem>
+        </ComboBox>
+                  
         <TextBox x:Name="TxtWeight" HorizontalAlignment="Left" Margin="136,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label Content="Kies je product:" HorizontalAlignment="Left" Margin="133,65,0,0" VerticalAlignment="Top"/>
         <Label Content="Geef het gegeten gewicht in g:" HorizontalAlignment="Left" Margin="133,123,0,0" VerticalAlignment="Top"/>
         <Label Content="Je at" HorizontalAlignment="Left" Margin="136,0,0,0" VerticalAlignment="Center"/>
         <Label Content="xx" HorizontalAlignment="Left" Margin="168,0,0,0" VerticalAlignment="Center"/>
         <Label Content="kCal." HorizontalAlignment="Left" Margin="187,0,0,0" VerticalAlignment="Center"/>
-        <ListBox x:Name="LstProducts" Margin="136,266,525,52"/>
+        <ListBox x:Name="LstProducts" Margin="135,256,526,62"/>
         <Label Content="Dit at je allemaal:" HorizontalAlignment="Left" Margin="136,230,0,0" VerticalAlignment="Top"/>
-        <Button Content="Add to list" HorizontalAlignment="Left" Margin="136,179,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Add to list" HorizontalAlignment="Left" Margin="136,179,0,0" VerticalAlignment="Top" Width="120" Click="AddToList"/>
+        <Label Content="Totale caloriën:" HorizontalAlignment="Left" Margin="136,377,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblTotalCalories" Content="xx" HorizontalAlignment="Left" Margin="236,377,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
