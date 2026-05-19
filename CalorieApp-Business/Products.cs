@@ -13,16 +13,16 @@ namespace CalorieApp_Business
 
 
         //properties
-        public string Name 
+        public string Name
         {
             get { return _name; }
         }
-        public int Weight 
+        public int Weight
         {
             get { return _weight; }
             set { _weight = value; }
         }
-        public int Calories 
+        public int Calories
         {
             get { return _calories; }
         }

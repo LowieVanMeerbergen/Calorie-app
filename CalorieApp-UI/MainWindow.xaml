@@ -29,7 +29,7 @@
             <ComboBoxItem Content="Instant noodles"></ComboBoxItem>
             <ComboBoxItem Content="Kaaspizza"></ComboBoxItem>
         </ComboBox>
-                  
+
         <TextBox x:Name="TxtWeight" HorizontalAlignment="Left" Margin="136,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label Content="Kies je product:" HorizontalAlignment="Left" Margin="133,65,0,0" VerticalAlignment="Top"/>
         <Label Content="Geef het gegeten gewicht in g:" HorizontalAlignment="Left" Margin="133,123,0,0" VerticalAlignment="Top"/>
