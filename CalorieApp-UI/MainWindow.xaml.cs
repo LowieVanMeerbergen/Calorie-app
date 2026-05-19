@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CalorieApp_Business;
 
 namespace CalorieApp_UI
 {
@@ -16,10 +17,7 @@ namespace CalorieApp_UI
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        private Controller _controller;
 
         private void AddToList(object sender, RoutedEventArgs e)
         {
