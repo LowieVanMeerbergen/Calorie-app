@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="Calorie App" Height="450" Width="800">
     <Grid>
-        <ComboBox Name="CmbProductChoice" HorizontalAlignment="Left" Margin="136,96,0,0" VerticalAlignment="Top" Width="160" />
-        <TextBox x:Name="TxtWeight" HorizontalAlignment="Left" Margin="136,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Kies je product:" HorizontalAlignment="Left" Margin="133,65,0,0" VerticalAlignment="Top"/>
-        <Label Content="Geef het gegeten gewicht in g:" HorizontalAlignment="Left" Margin="133,123,0,0" VerticalAlignment="Top"/>
-        <Button Content="Add to list" HorizontalAlignment="Left" Margin="136,179,0,0" VerticalAlignment="Top" Width="120" Click="AddToList"/>
-        <Label Content="Dit at je allemaal:" HorizontalAlignment="Left" Margin="136,230,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="LstProducts" Margin="135,256,400,62"/>
-        <Label Content="Totale calorieën:" HorizontalAlignment="Left" Margin="136,377,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="LblTotalCalories" Content="0 kCal" HorizontalAlignment="Left" Margin="246,377,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="CmbProductChoice" HorizontalAlignment="Left" Margin="154,164,0,0" VerticalAlignment="Top" Width="160" />
+        <TextBox x:Name="TxtWeight" HorizontalAlignment="Left" Margin="154,222,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Kies je product:" HorizontalAlignment="Left" Margin="151,133,0,0" VerticalAlignment="Top"/>
+        <Label Content="Geef het gegeten gewicht in g:" HorizontalAlignment="Left" Margin="151,191,0,0" VerticalAlignment="Top"/>
+        <Button Content="Voeg toe aan de lijst" HorizontalAlignment="Left" Margin="154,247,0,0" VerticalAlignment="Top" Width="120" Click="AddToList"/>
+        <Label Content="Dit at je allemaal:" HorizontalAlignment="Left" Margin="438,34,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="LstProducts" Margin="438,65,30,44"/>
+        <Label Content="Totale calorieën:" HorizontalAlignment="Left" Margin="269,346,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblTotalCalories" Content="0 kCal" HorizontalAlignment="Center" Margin="0,346,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

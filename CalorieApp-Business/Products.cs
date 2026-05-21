@@ -11,14 +11,16 @@ namespace CalorieApp_Business
         private int _weight;
         private int _caloriesPer100g;
 
+
         //Properties
         public string Name
         {
             get { return _name; }
-        }
 
+        }
         public int Weight
         {
+
             get { return _weight; }
             set { _weight = value; }
         }
@@ -27,7 +29,6 @@ namespace CalorieApp_Business
         {
             get { return _caloriesPer100g; }
         }
-
         //Calculation
         public int CalculatedCalories
         {
@@ -45,7 +46,7 @@ namespace CalorieApp_Business
         //Makes the list look nice
         public override string ToString()
         {
-            return $"{_name} | {CalculatedCalories} kCal";
+            return $"{_name} | {CalculatedCalories} kCal | {_weight} gram" ;
         }
     }
 }
