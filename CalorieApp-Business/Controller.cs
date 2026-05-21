@@ -52,7 +52,7 @@ namespace CalorieApp_Business
             Products product = new Products(name, caloriesPer100g, weight);
             _eatenProducts.Add(product);
         }
-        //Returns list of eaten products
+        //Returns list of eaten productss
         public List<Products> GetEatenProducts()
         {
             return _eatenProducts;
